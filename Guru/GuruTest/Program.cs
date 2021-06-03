@@ -1,11 +1,15 @@
-﻿using System;
+﻿using GuruTest.Utils;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using System;
 
 namespace GuruTest
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
+            var s = StringHelper.RandomString(25);
         }
     }
 }
